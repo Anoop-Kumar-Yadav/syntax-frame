@@ -1,5 +1,5 @@
 {
-  "Syntax Frame File Header \u2014 CSS": {
+  "Syntax Frame File Header — CSS": {
     "scope": "css",
     "prefix": "fheader",
     "description": "Insert Syntax Frame file header",
@@ -21,7 +21,7 @@
       ""
     ]
   },
-  "Syntax Frame Section \u2014 CSS": {
+  "Syntax Frame Section — CSS": {
     "scope": "css",
     "prefix": "section",
     "description": "Insert a major Syntax Frame section",
@@ -32,7 +32,7 @@
       ""
     ]
   },
-  "Syntax Frame Subsection \u2014 CSS": {
+  "Syntax Frame Subsection — CSS": {
     "scope": "css",
     "prefix": "subsec",
     "description": "Insert a Syntax Frame subsection",
@@ -43,7 +43,7 @@
       ""
     ]
   },
-  "Syntax Frame End Section \u2014 CSS": {
+  "Syntax Frame End Section — CSS": {
     "scope": "css",
     "prefix": "end",
     "description": "End a Syntax Frame section",
@@ -54,7 +54,7 @@
       ""
     ]
   },
-  "Syntax Frame Rule Doc (Detailed) \u2014 CSS": {
+  "Syntax Frame Rule Doc (Detailed) — CSS": {
     "scope": "css",
     "prefix": "fdoc",
     "description": "Detailed CSS rule documentation (Syntax Frame)",
@@ -69,7 +69,7 @@
       " */"
     ]
   },
-  "Syntax Frame Rule Doc (Simple) \u2014 CSS": {
+  "Syntax Frame Rule Doc (Simple) — CSS": {
     "scope": "css",
     "prefix": "fds",
     "description": "Simple CSS rule documentation (Syntax Frame)",
@@ -77,7 +77,7 @@
       "/* ${1:Brief description of this rule} */"
     ]
   },
-  "Syntax Frame TODO \u2014 CSS": {
+  "Syntax Frame TODO — CSS": {
     "scope": "css",
     "prefix": "todo",
     "description": "Task marker (TODO)",
@@ -85,7 +85,7 @@
       "/* TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] */"
     ]
   },
-  "Syntax Frame FIXME \u2014 CSS": {
+  "Syntax Frame FIXME — CSS": {
     "scope": "css",
     "prefix": "fixme",
     "description": "Fix required marker (FIXME)",
@@ -93,7 +93,7 @@
       "/* FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] */"
     ]
   },
-  "Syntax Frame SECURITY \u2014 CSS": {
+  "Syntax Frame SECURITY — CSS": {
     "scope": "css",
     "prefix": "security",
     "description": "Security marker",
@@ -101,7 +101,7 @@
       "/* SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] */"
     ]
   },
-  "Syntax Frame Debug Marker \u2014 CSS": {
+  "Syntax Frame Debug Marker — CSS": {
     "scope": "css",
     "prefix": "debug",
     "description": "Debug marker (Syntax Frame)",
@@ -109,7 +109,7 @@
       "/* DEBUG: ${1:Description or variable} */"
     ]
   },
-  "Syntax Frame Performance Marker \u2014 CSS": {
+  "Syntax Frame Performance Marker — CSS": {
     "scope": "css",
     "prefix": "perf",
     "description": "Performance marker (Syntax Frame)",
@@ -117,7 +117,7 @@
       "/* PERF: ${1:What is being measured} */"
     ]
   },
-  "Syntax Frame Group Marker \u2014 CSS": {
+  "Syntax Frame Group Marker — CSS": {
     "scope": "css",
     "prefix": "cgroup",
     "description": "Logical debug group (Syntax Frame)",
@@ -127,7 +127,7 @@
       "/* END GROUP: ${1:Group Name} */"
     ]
   },
-  "Syntax Frame File Header \u2014 HTML": {
+  "Syntax Frame File Header — HTML": {
     "scope": "html",
     "prefix": "fheader",
     "description": "Insert Syntax Frame file header",
@@ -149,7 +149,7 @@
       ""
     ]
   },
-  "Syntax Frame Section \u2014 HTML": {
+  "Syntax Frame Section — HTML": {
     "scope": "html",
     "prefix": "section",
     "description": "Insert a major Syntax Frame section",
@@ -160,7 +160,7 @@
       ""
     ]
   },
-  "Syntax Frame Subsection \u2014 HTML": {
+  "Syntax Frame Subsection — HTML": {
     "scope": "html",
     "prefix": "subsec",
     "description": "Insert a Syntax Frame subsection",
@@ -171,7 +171,7 @@
       ""
     ]
   },
-  "Syntax Frame End Section \u2014 HTML": {
+  "Syntax Frame End Section — HTML": {
     "scope": "html",
     "prefix": "end",
     "description": "End a Syntax Frame section",
@@ -182,7 +182,7 @@
       ""
     ]
   },
-  "Syntax Frame Block Doc (Detailed) \u2014 HTML": {
+  "Syntax Frame Block Doc (Detailed) — HTML": {
     "scope": "html",
     "prefix": "fdoc",
     "description": "Detailed block documentation (Syntax Frame)",
@@ -197,7 +197,7 @@
       "-->"
     ]
   },
-  "Syntax Frame Block Doc (Simple) \u2014 HTML": {
+  "Syntax Frame Block Doc (Simple) — HTML": {
     "scope": "html",
     "prefix": "fds",
     "description": "Simple block documentation (Syntax Frame)",
@@ -205,7 +205,7 @@
       "<!-- ${1:Brief description of this block} -->"
     ]
   },
-  "Syntax Frame TODO \u2014 HTML": {
+  "Syntax Frame TODO — HTML": {
     "scope": "html",
     "prefix": "todo",
     "description": "Task marker (TODO)",
@@ -213,7 +213,7 @@
       "<!-- TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] -->"
     ]
   },
-  "Syntax Frame FIXME \u2014 HTML": {
+  "Syntax Frame FIXME — HTML": {
     "scope": "html",
     "prefix": "fixme",
     "description": "Fix required marker (FIXME)",
@@ -221,7 +221,7 @@
       "<!-- FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] -->"
     ]
   },
-  "Syntax Frame SECURITY \u2014 HTML": {
+  "Syntax Frame SECURITY — HTML": {
     "scope": "html",
     "prefix": "security",
     "description": "Security marker",
@@ -229,7 +229,7 @@
       "<!-- SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] -->"
     ]
   },
-  "Syntax Frame Debug Marker \u2014 HTML": {
+  "Syntax Frame Debug Marker — HTML": {
     "scope": "html",
     "prefix": "debug",
     "description": "Debug marker (Syntax Frame)",
@@ -237,7 +237,7 @@
       "<!-- DEBUG: ${1:Description or variable} -->"
     ]
   },
-  "Syntax Frame Performance Marker \u2014 HTML": {
+  "Syntax Frame Performance Marker — HTML": {
     "scope": "html",
     "prefix": "perf",
     "description": "Performance marker (Syntax Frame)",
@@ -245,7 +245,7 @@
       "<!-- PERF: ${1:What is being measured} -->"
     ]
   },
-  "Syntax Frame Group Marker \u2014 HTML": {
+  "Syntax Frame Group Marker — HTML": {
     "scope": "html",
     "prefix": "cgroup",
     "description": "Logical debug group (Syntax Frame)",
@@ -255,7 +255,7 @@
       "<!-- END GROUP: ${1:Group Name} -->"
     ]
   },
-  "Syntax Frame File Header \u2014 Java": {
+  "Syntax Frame File Header — Java": {
     "scope": "java",
     "prefix": "fheader",
     "description": "Insert Syntax Frame file header",
@@ -277,7 +277,7 @@
       ""
     ]
   },
-  "Syntax Frame Section \u2014 Java": {
+  "Syntax Frame Section — Java": {
     "scope": "java",
     "prefix": "section",
     "description": "Insert a major Syntax Frame section",
@@ -288,7 +288,7 @@
       ""
     ]
   },
-  "Syntax Frame Subsection \u2014 Java": {
+  "Syntax Frame Subsection — Java": {
     "scope": "java",
     "prefix": "subsec",
     "description": "Insert a Syntax Frame subsection",
@@ -299,7 +299,7 @@
       ""
     ]
   },
-  "Syntax Frame End Section \u2014 Java": {
+  "Syntax Frame End Section — Java": {
     "scope": "java",
     "prefix": "end",
     "description": "End a Syntax Frame section",
@@ -310,7 +310,7 @@
       ""
     ]
   },
-  "Syntax Frame Function Doc (Detailed) \u2014 Java": {
+  "Syntax Frame Function Doc (Detailed) — Java": {
     "scope": "java",
     "prefix": "fdoc",
     "description": "Detailed method documentation (Syntax Frame)",
@@ -331,7 +331,7 @@
       " */"
     ]
   },
-  "Syntax Frame Function Doc (Simple) \u2014 Java": {
+  "Syntax Frame Function Doc (Simple) — Java": {
     "scope": "java",
     "prefix": "fds",
     "description": "Simple method documentation (Syntax Frame)",
@@ -341,7 +341,7 @@
       " */"
     ]
   },
-  "Syntax Frame TODO \u2014 Java": {
+  "Syntax Frame TODO — Java": {
     "scope": "java",
     "prefix": "todo",
     "description": "Task marker (TODO)",
@@ -349,7 +349,7 @@
       "// TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame FIXME \u2014 Java": {
+  "Syntax Frame FIXME — Java": {
     "scope": "java",
     "prefix": "fixme",
     "description": "Fix required marker (FIXME)",
@@ -357,7 +357,7 @@
       "// FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame SECURITY \u2014 Java": {
+  "Syntax Frame SECURITY — Java": {
     "scope": "java",
     "prefix": "security",
     "description": "Security marker",
@@ -365,7 +365,7 @@
       "// SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame Debug Log \u2014 Java": {
+  "Syntax Frame Debug Log — Java": {
     "scope": "java",
     "prefix": "debug",
     "description": "Debug log (Syntax Frame)",
@@ -373,7 +373,7 @@
       "System.out.println(\"[DEBUG] \" + ${1:variable});"
     ]
   },
-  "Syntax Frame Performance Block \u2014 Java": {
+  "Syntax Frame Performance Block — Java": {
     "scope": "java",
     "prefix": "perf",
     "description": "Performance measurement block (Syntax Frame)",
@@ -386,7 +386,7 @@
       "System.out.println(\"[PERF] ${1:label}: \" + ((${1:label}End - ${1:label}Start) / 1_000_000.0) + \" ms\");"
     ]
   },
-  "Syntax Frame Console Group \u2014 Java": {
+  "Syntax Frame Console Group — Java": {
     "scope": "java",
     "prefix": "cgroup",
     "description": "Logical debug group (Syntax Frame)",
@@ -396,7 +396,7 @@
       "System.out.println(\"=== END ${1:Group Name} ===\");"
     ]
   },
-  "Syntax Frame File Header \u2014 JavaScript": {
+  "Syntax Frame File Header — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "fheader",
     "description": "Insert Syntax Frame file header",
@@ -418,7 +418,7 @@
       ""
     ]
   },
-  "Syntax Frame Section \u2014 JavaScript": {
+  "Syntax Frame Section — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "section",
     "description": "Insert a major Syntax Frame section",
@@ -429,7 +429,7 @@
       ""
     ]
   },
-  "Syntax Frame Subsection \u2014 JavaScript": {
+  "Syntax Frame Subsection — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "subsec",
     "description": "Insert a Syntax Frame subsection",
@@ -440,7 +440,7 @@
       ""
     ]
   },
-  "Syntax Frame End Section \u2014 JavaScript": {
+  "Syntax Frame End Section — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "end",
     "description": "End a Syntax Frame section",
@@ -451,7 +451,7 @@
       ""
     ]
   },
-  "Syntax Frame Function Doc (Detailed) \u2014 JavaScript": {
+  "Syntax Frame Function Doc (Detailed) — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "fdoc",
     "description": "Detailed function documentation (Syntax Frame)",
@@ -472,7 +472,7 @@
       " */"
     ]
   },
-  "Syntax Frame Function Doc (Simple) \u2014 JavaScript": {
+  "Syntax Frame Function Doc (Simple) — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "fds",
     "description": "Simple function documentation (Syntax Frame)",
@@ -482,7 +482,7 @@
       " */"
     ]
   },
-  "Syntax Frame TODO \u2014 JavaScript": {
+  "Syntax Frame TODO — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "todo",
     "description": "Task marker (TODO)",
@@ -490,7 +490,7 @@
       "// TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame FIXME \u2014 JavaScript": {
+  "Syntax Frame FIXME — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "fixme",
     "description": "Fix required marker (FIXME)",
@@ -498,7 +498,7 @@
       "// FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame SECURITY \u2014 JavaScript": {
+  "Syntax Frame SECURITY — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "security",
     "description": "Security marker",
@@ -506,7 +506,7 @@
       "// SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame Debug Log \u2014 JavaScript": {
+  "Syntax Frame Debug Log — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "debug",
     "description": "Debug log (Syntax Frame)",
@@ -514,7 +514,7 @@
       "console.log('[DEBUG]', ${1:variable});"
     ]
   },
-  "Syntax Frame Performance Block \u2014 JavaScript": {
+  "Syntax Frame Performance Block — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "perf",
     "description": "Performance measurement block (Syntax Frame)",
@@ -527,7 +527,7 @@
       "console.log('[PERF] ${1:label}:', (${1:label}End - ${1:label}Start).toFixed(2), 'ms');"
     ]
   },
-  "Syntax Frame Console Group \u2014 JavaScript": {
+  "Syntax Frame Console Group — JavaScript": {
     "scope": "javascript,typescript",
     "prefix": "cgroup",
     "description": "Console log group (Syntax Frame)",
@@ -537,7 +537,7 @@
       "console.groupEnd();"
     ]
   },
-  "Syntax Frame File Header \u2014 Python": {
+  "Syntax Frame File Header — Python": {
     "scope": "python",
     "prefix": "fheader",
     "description": "Insert Syntax Frame file header",
@@ -559,7 +559,7 @@
       ""
     ]
   },
-  "Syntax Frame Section \u2014 Python": {
+  "Syntax Frame Section — Python": {
     "scope": "python",
     "prefix": "section",
     "description": "Insert a major Syntax Frame section",
@@ -570,7 +570,7 @@
       ""
     ]
   },
-  "Syntax Frame Subsection \u2014 Python": {
+  "Syntax Frame Subsection — Python": {
     "scope": "python",
     "prefix": "subsec",
     "description": "Insert a Syntax Frame subsection",
@@ -581,7 +581,7 @@
       ""
     ]
   },
-  "Syntax Frame End Section \u2014 Python": {
+  "Syntax Frame End Section — Python": {
     "scope": "python",
     "prefix": "end",
     "description": "End a Syntax Frame section",
@@ -592,7 +592,7 @@
       ""
     ]
   },
-  "Syntax Frame Function Doc (Detailed) \u2014 Python": {
+  "Syntax Frame Function Doc (Detailed) — Python": {
     "scope": "python",
     "prefix": "fdoc",
     "description": "Detailed function documentation (Syntax Frame)",
@@ -613,7 +613,7 @@
       "\"\"\""
     ]
   },
-  "Syntax Frame Function Doc (Simple) \u2014 Python": {
+  "Syntax Frame Function Doc (Simple) — Python": {
     "scope": "python",
     "prefix": "fds",
     "description": "Simple function documentation (Syntax Frame)",
@@ -621,7 +621,7 @@
       "\"\"\"${1:Brief description of the function}\"\"\""
     ]
   },
-  "Syntax Frame TODO \u2014 Python": {
+  "Syntax Frame TODO — Python": {
     "scope": "python",
     "prefix": "todo",
     "description": "Task marker (TODO)",
@@ -629,7 +629,7 @@
       "# TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame FIXME \u2014 Python": {
+  "Syntax Frame FIXME — Python": {
     "scope": "python",
     "prefix": "fixme",
     "description": "Fix required marker (FIXME)",
@@ -637,7 +637,7 @@
       "# FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame SECURITY \u2014 Python": {
+  "Syntax Frame SECURITY — Python": {
     "scope": "python",
     "prefix": "security",
     "description": "Security marker",
@@ -645,7 +645,7 @@
       "# SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
     ]
   },
-  "Syntax Frame Debug Log \u2014 Python": {
+  "Syntax Frame Debug Log — Python": {
     "scope": "python",
     "prefix": "debug",
     "description": "Debug log (Syntax Frame)",
@@ -653,7 +653,7 @@
       "print('[DEBUG]', ${1:variable})"
     ]
   },
-  "Syntax Frame Performance Block \u2014 Python": {
+  "Syntax Frame Performance Block — Python": {
     "scope": "python",
     "prefix": "perf",
     "description": "Performance measurement block (Syntax Frame)",
@@ -667,7 +667,7 @@
       "print('[PERF] ${1:label}:', round((${1:label}_end - ${1:label}_start) * 1000, 2), 'ms')"
     ]
   },
-  "Syntax Frame Console Group \u2014 Python": {
+  "Syntax Frame Console Group — Python": {
     "scope": "python",
     "prefix": "cgroup",
     "description": "Logical debug group (Syntax Frame)",

@@ -92,7 +92,7 @@ def generate():
 
     # ---------- WRITE OUTPUT ----------
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(output_snippets, f, indent=2)
+        json.dump(output_snippets, f, indent=2, ensure_ascii=False)
 
     print("✅ Syntax Frame global snippet generated successfully:")
     print(f"   {OUTPUT_FILE}")
