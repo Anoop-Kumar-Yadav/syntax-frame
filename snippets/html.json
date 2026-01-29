@@ -1,0 +1,135 @@
+{
+  "Syntax Frame File Header": {
+    "scope": "html",
+    "prefix": "fheader",
+    "description": "Insert Syntax Frame file header",
+    "body": [
+      "<!-- ================================================================",
+      "FRAME   : Syntax Frame",
+      "FILE    : ${TM_FILENAME}",
+      "PATH    : ${TM_DIRECTORY}",
+      "AUTHOR  : ${1:Author Name}",
+      "CREATED : ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "MODIFIED: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "----------------------------------------------------------------",
+      "DESCRIPTION:",
+      "${2:Short description of this file}",
+      "",
+      "RESPONSIBILITY:",
+      "- ${3:Primary responsibility of this file}",
+      "=============================================================== -->",
+      ""
+    ]
+  }
+  ,
+"Syntax Frame Section": {
+  "scope": "html",
+  "prefix": "section",
+  "description": "Insert a major Syntax Frame section",
+  "body": [
+    "<!-- ================================================================",
+    "SECTION: ${1:Section Title}",
+    "=============================================================== -->",
+    ""
+  ]
+},
+"Syntax Frame Subsection": {
+  "scope": "html",
+  "prefix": "subsec",
+  "description": "Insert a Syntax Frame subsection",
+  "body": [
+    "<!-- ------------------------------------------------",
+    "SUBSECTION: ${1:Subsection Title}",
+    "------------------------------------------------ -->",
+    ""
+  ]
+},
+"Syntax Frame End Section": {
+  "scope": "html",
+  "prefix": "end",
+  "description": "End a Syntax Frame section",
+  "body": [
+    "<!-- ================================================================",
+    "END SECTION: ${1:Section Title}",
+    "=============================================================== -->",
+    ""
+  ]
+}
+,
+"Syntax Frame Block Doc (Detailed)": {
+  "scope": "html",
+  "prefix": "fdoc",
+  "description": "Detailed block documentation (Syntax Frame)",
+  "body": [
+    "<!--",
+    "BLOCK: ${1:Block Name}",
+    "DESCRIPTION:",
+    "${2:Explain what this block does}",
+    "",
+    "NOTES:",
+    "${3:Any important notes}",
+    "-->"
+  ]
+},
+"Syntax Frame Block Doc (Simple)": {
+  "scope": "html",
+  "prefix": "fds",
+  "description": "Simple block documentation (Syntax Frame)",
+  "body": [
+    "<!-- ${1:Brief description of this block} -->"
+  ]
+}
+,
+"Syntax Frame TODO": {
+  "scope": "html",
+  "prefix": "todo",
+  "description": "Task marker (TODO)",
+  "body": [
+    "<!-- TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] -->"
+  ]
+},
+"Syntax Frame FIXME": {
+  "scope": "html",
+  "prefix": "fixme",
+  "description": "Fix required marker (FIXME)",
+  "body": [
+    "<!-- FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] -->"
+  ]
+},
+"Syntax Frame SECURITY": {
+  "scope": "html",
+  "prefix": "security",
+  "description": "Security marker",
+  "body": [
+    "<!-- SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] -->"
+  ]
+}
+,
+"Syntax Frame Debug Marker": {
+  "scope": "html",
+  "prefix": "debug",
+  "description": "Debug marker (Syntax Frame)",
+  "body": [
+    "<!-- DEBUG: ${1:Description or variable} -->"
+  ]
+},
+"Syntax Frame Performance Marker": {
+  "scope": "html",
+  "prefix": "perf",
+  "description": "Performance marker (Syntax Frame)",
+  "body": [
+    "<!-- PERF: ${1:What is being measured} -->"
+  ]
+},
+"Syntax Frame Group Marker": {
+  "scope": "html",
+  "prefix": "cgroup",
+  "description": "Logical debug group (Syntax Frame)",
+  "body": [
+    "<!-- GROUP: ${1:Group Name} -->",
+    "${2:<!-- grouped content -->}",
+    "<!-- END GROUP: ${1:Group Name} -->"
+  ]
+}
+
+}

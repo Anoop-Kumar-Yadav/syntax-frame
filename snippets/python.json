@@ -1,0 +1,147 @@
+{
+  "Syntax Frame File Header": {
+    "scope": "python",
+    "prefix": "fheader",
+    "description": "Insert Syntax Frame file header",
+    "body": [
+      "# ================================================================",
+      "# FRAME   : Syntax Frame",
+      "# FILE    : ${TM_FILENAME}",
+      "# PATH    : ${TM_DIRECTORY}",
+      "# AUTHOR  : ${1:Author Name}",
+      "# CREATED : ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "# MODIFIED: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "# ----------------------------------------------------------------",
+      "# DESCRIPTION:",
+      "# ${2:Short description of this file}",
+      "#",
+      "# RESPONSIBILITY:",
+      "# - ${3:Primary responsibility of this file}",
+      "# ================================================================",
+      ""
+    ]
+  }
+  ,
+"Syntax Frame Section": {
+  "scope": "python",
+  "prefix": "section",
+  "description": "Insert a major Syntax Frame section",
+  "body": [
+    "# ================================================================",
+    "# SECTION: ${1:Section Title}",
+    "# ================================================================",
+    ""
+  ]
+},
+"Syntax Frame Subsection": {
+  "scope": "python",
+  "prefix": "subsec",
+  "description": "Insert a Syntax Frame subsection",
+  "body": [
+    "# ------------------------------------------------",
+    "# SUBSECTION: ${1:Subsection Title}",
+    "# ------------------------------------------------",
+    ""
+  ]
+},
+"Syntax Frame End Section": {
+  "scope": "python",
+  "prefix": "end",
+  "description": "End a Syntax Frame section",
+  "body": [
+    "# ================================================================",
+    "# END SECTION: ${1:Section Title}",
+    "# ================================================================",
+    ""
+  ]
+}
+,
+"Syntax Frame Function Doc (Detailed)": {
+  "scope": "python",
+  "prefix": "fdoc",
+  "description": "Detailed function documentation (Syntax Frame)",
+  "body": [
+    "\"\"\"",
+    "FUNCTION: ${1:function_name}",
+    "DESCRIPTION:",
+    "${2:Explain what this function does}",
+    "",
+    "PARAMETERS:",
+    "- ${3:param_name}: ${4:description}",
+    "",
+    "RETURNS:",
+    "- ${5:return_value}: ${6:description}",
+    "",
+    "NOTES:",
+    "${7:Any important notes}",
+    "\"\"\""
+  ]
+},
+"Syntax Frame Function Doc (Simple)": {
+  "scope": "python",
+  "prefix": "fds",
+  "description": "Simple function documentation (Syntax Frame)",
+  "body": [
+    "\"\"\"${1:Brief description of the function}\"\"\""
+  ]
+}
+,
+"Syntax Frame TODO": {
+  "scope": "python",
+  "prefix": "todo",
+  "description": "Task marker (TODO)",
+  "body": [
+    "# TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
+  ]
+},
+"Syntax Frame FIXME": {
+  "scope": "python",
+  "prefix": "fixme",
+  "description": "Fix required marker (FIXME)",
+  "body": [
+    "# FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
+  ]
+},
+"Syntax Frame SECURITY": {
+  "scope": "python",
+  "prefix": "security",
+  "description": "Security marker",
+  "body": [
+    "# SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
+  ]
+}
+,
+"Syntax Frame Debug Log": {
+  "scope": "python",
+  "prefix": "debug",
+  "description": "Debug log (Syntax Frame)",
+  "body": [
+    "print('[DEBUG]', ${1:variable})"
+  ]
+},
+"Syntax Frame Performance Block": {
+  "scope": "python",
+  "prefix": "perf",
+  "description": "Performance measurement block (Syntax Frame)",
+  "body": [
+    "import time",
+    "${1:label}_start = time.time()",
+    "",
+    "${2:# code to measure}",
+    "",
+    "${1:label}_end = time.time()",
+    "print('[PERF] ${1:label}:', round((${1:label}_end - ${1:label}_start) * 1000, 2), 'ms')"
+  ]
+},
+"Syntax Frame Console Group": {
+  "scope": "python",
+  "prefix": "cgroup",
+  "description": "Logical debug group (Syntax Frame)",
+  "body": [
+    "print('=== ${1:Group Name} ===')",
+    "${2:# grouped logs}",
+    "print('=== END ${1:Group Name} ===')"
+  ]
+}
+
+}

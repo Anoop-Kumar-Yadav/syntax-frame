@@ -1,0 +1,135 @@
+{
+  "Syntax Frame File Header": {
+    "scope": "css",
+    "prefix": "fheader",
+    "description": "Insert Syntax Frame file header",
+    "body": [
+      "/* ================================================================",
+      " FRAME   : Syntax Frame",
+      " FILE    : ${TM_FILENAME}",
+      " PATH    : ${TM_DIRECTORY}",
+      " AUTHOR  : ${1:Author Name}",
+      " CREATED : ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      " MODIFIED: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      " ----------------------------------------------------------------",
+      " DESCRIPTION:",
+      " ${2:Short description of this file}",
+      "",
+      " RESPONSIBILITY:",
+      " - ${3:Primary responsibility of this file}",
+      " ================================================================ */",
+      ""
+    ]
+  }
+  ,
+"Syntax Frame Section": {
+  "scope": "css",
+  "prefix": "section",
+  "description": "Insert a major Syntax Frame section",
+  "body": [
+    "/* ================================================================",
+    " SECTION: ${1:Section Title}",
+    " ================================================================ */",
+    ""
+  ]
+},
+"Syntax Frame Subsection": {
+  "scope": "css",
+  "prefix": "subsec",
+  "description": "Insert a Syntax Frame subsection",
+  "body": [
+    "/* ------------------------------------------------",
+    " SUBSECTION: ${1:Subsection Title}",
+    " ------------------------------------------------ */",
+    ""
+  ]
+},
+"Syntax Frame End Section": {
+  "scope": "css",
+  "prefix": "end",
+  "description": "End a Syntax Frame section",
+  "body": [
+    "/* ================================================================",
+    " END SECTION: ${1:Section Title}",
+    " ================================================================ */",
+    ""
+  ]
+}
+,
+"Syntax Frame Rule Doc (Detailed)": {
+  "scope": "css",
+  "prefix": "fdoc",
+  "description": "Detailed CSS rule documentation (Syntax Frame)",
+  "body": [
+    "/*",
+    " RULE: ${1:Rule or Component Name}",
+    " DESCRIPTION:",
+    " ${2:Explain what this rule does}",
+    "",
+    " NOTES:",
+    " ${3:Any important notes}",
+    " */"
+  ]
+},
+"Syntax Frame Rule Doc (Simple)": {
+  "scope": "css",
+  "prefix": "fds",
+  "description": "Simple CSS rule documentation (Syntax Frame)",
+  "body": [
+    "/* ${1:Brief description of this rule} */"
+  ]
+}
+,
+"Syntax Frame TODO": {
+  "scope": "css",
+  "prefix": "todo",
+  "description": "Task marker (TODO)",
+  "body": [
+    "/* TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] */"
+  ]
+},
+"Syntax Frame FIXME": {
+  "scope": "css",
+  "prefix": "fixme",
+  "description": "Fix required marker (FIXME)",
+  "body": [
+    "/* FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] */"
+  ]
+},
+"Syntax Frame SECURITY": {
+  "scope": "css",
+  "prefix": "security",
+  "description": "Security marker",
+  "body": [
+    "/* SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}] */"
+  ]
+}
+,
+"Syntax Frame Debug Marker": {
+  "scope": "css",
+  "prefix": "debug",
+  "description": "Debug marker (Syntax Frame)",
+  "body": [
+    "/* DEBUG: ${1:Description or variable} */"
+  ]
+},
+"Syntax Frame Performance Marker": {
+  "scope": "css",
+  "prefix": "perf",
+  "description": "Performance marker (Syntax Frame)",
+  "body": [
+    "/* PERF: ${1:What is being measured} */"
+  ]
+},
+"Syntax Frame Group Marker": {
+  "scope": "css",
+  "prefix": "cgroup",
+  "description": "Logical debug group (Syntax Frame)",
+  "body": [
+    "/* GROUP: ${1:Group Name} */",
+    "${2:/* grouped rules */}",
+    "/* END GROUP: ${1:Group Name} */"
+  ]
+}
+
+}

@@ -1,0 +1,148 @@
+{
+  "Syntax Frame File Header": {
+    "scope": "java",
+    "prefix": "fheader",
+    "description": "Insert Syntax Frame file header",
+    "body": [
+      "// ================================================================",
+      "// FRAME   : Syntax Frame",
+      "// FILE    : ${TM_FILENAME}",
+      "// PATH    : ${TM_DIRECTORY}",
+      "// AUTHOR  : ${1:Author Name}",
+      "// CREATED : ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "// MODIFIED: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "// ----------------------------------------------------------------",
+      "// DESCRIPTION:",
+      "// ${2:Short description of this file}",
+      "//",
+      "// RESPONSIBILITY:",
+      "// - ${3:Primary responsibility of this file}",
+      "// ================================================================",
+      ""
+    ]
+  }
+  ,
+"Syntax Frame Section": {
+  "scope": "java",
+  "prefix": "section",
+  "description": "Insert a major Syntax Frame section",
+  "body": [
+    "// ================================================================",
+    "// SECTION: ${1:Section Title}",
+    "// ================================================================",
+    ""
+  ]
+},
+"Syntax Frame Subsection": {
+  "scope": "java",
+  "prefix": "subsec",
+  "description": "Insert a Syntax Frame subsection",
+  "body": [
+    "// ------------------------------------------------",
+    "// SUBSECTION: ${1:Subsection Title}",
+    "// ------------------------------------------------",
+    ""
+  ]
+},
+"Syntax Frame End Section": {
+  "scope": "java",
+  "prefix": "end",
+  "description": "End a Syntax Frame section",
+  "body": [
+    "// ================================================================",
+    "// END SECTION: ${1:Section Title}",
+    "// ================================================================",
+    ""
+  ]
+}
+,
+"Syntax Frame Function Doc (Detailed)": {
+  "scope": "java",
+  "prefix": "fdoc",
+  "description": "Detailed method documentation (Syntax Frame)",
+  "body": [
+    "/**",
+    " * METHOD: ${1:methodName}",
+    " * DESCRIPTION:",
+    " * ${2:Explain what this method does}",
+    " *",
+    " * PARAMETERS:",
+    " * @param ${3:paramName} ${4:description}",
+    " *",
+    " * RETURNS:",
+    " * @return ${5:description}",
+    " *",
+    " * NOTES:",
+    " * ${6:Any important notes}",
+    " */"
+  ]
+},
+"Syntax Frame Function Doc (Simple)": {
+  "scope": "java",
+  "prefix": "fds",
+  "description": "Simple method documentation (Syntax Frame)",
+  "body": [
+    "/**",
+    " * ${1:Brief description of the method}",
+    " */"
+  ]
+}
+,
+"Syntax Frame TODO": {
+  "scope": "java",
+  "prefix": "todo",
+  "description": "Task marker (TODO)",
+  "body": [
+    "// TODO: ${1:Describe task} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
+  ]
+},
+"Syntax Frame FIXME": {
+  "scope": "java",
+  "prefix": "fixme",
+  "description": "Fix required marker (FIXME)",
+  "body": [
+    "// FIXME: ${1:Describe issue} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
+  ]
+},
+"Syntax Frame SECURITY": {
+  "scope": "java",
+  "prefix": "security",
+  "description": "Security marker",
+  "body": [
+    "// SECURITY: ${1:Describe risk} [${2:owner}, ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}]"
+  ]
+}
+,
+"Syntax Frame Debug Log": {
+  "scope": "java",
+  "prefix": "debug",
+  "description": "Debug log (Syntax Frame)",
+  "body": [
+    "System.out.println(\"[DEBUG] \" + ${1:variable});"
+  ]
+},
+"Syntax Frame Performance Block": {
+  "scope": "java",
+  "prefix": "perf",
+  "description": "Performance measurement block (Syntax Frame)",
+  "body": [
+    "long ${1:label}Start = System.nanoTime();",
+    "",
+    "${2:// code to measure}",
+    "",
+    "long ${1:label}End = System.nanoTime();",
+    "System.out.println(\"[PERF] ${1:label}: \" + ((${1:label}End - ${1:label}Start) / 1_000_000.0) + \" ms\");"
+  ]
+},
+"Syntax Frame Console Group": {
+  "scope": "java",
+  "prefix": "cgroup",
+  "description": "Logical debug group (Syntax Frame)",
+  "body": [
+    "System.out.println(\"=== ${1:Group Name} ===\");",
+    "${2:// grouped logs}",
+    "System.out.println(\"=== END ${1:Group Name} ===\");"
+  ]
+}
+
+}
