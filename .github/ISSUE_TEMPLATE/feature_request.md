@@ -1,59 +1,20 @@
 ---
-
-name: ✨ Feature Request
-description: Suggest a new idea or improvement for Syntax Frame
-title: "[Feature]: "
-labels: [enhancement]
-assignees: []
--------------
-
-## Problem Statement
-
-Describe the problem or limitation you are facing. Focus on **why** this is needed.
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
-## Proposed Solution
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-Describe the feature or improvement you would like to see. Keep it concise and practical.
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
----
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-## Scope & Impact
-
-* Which area does this affect?
-
-  * [ ] Snippets
-  * [ ] Generator (Node.js)
-  * [ ] Generator (Python)
-  * [ ] Documentation
-  * [ ] Installation / Distribution
-
-* Impact level:
-
-  * [ ] Small (minor improvement)
-  * [ ] Medium (new capability)
-  * [ ] Large (architectural change)
-
----
-
-## Scope Check (Important)
-
-Please confirm:
-
-* [ ] This fits within **Syntax Frame v1** scope
-* [ ] This likely belongs to **Syntax Frame v2**
-
-(Refer to `ARCHITECTURE.md`, `GENERATOR_RULES.md`, and `CONTRIBUTING.md`.)
-
----
-
-## Alternatives Considered
-
-Describe any alternative approaches or workarounds you considered.
-
----
-
-## Additional Context
-
-Add examples, references, or mockups if helpful.
+**Additional context**
+Add any other context or screenshots about the feature request here.

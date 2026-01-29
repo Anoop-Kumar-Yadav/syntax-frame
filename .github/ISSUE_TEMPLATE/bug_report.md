@@ -1,61 +1,38 @@
 ---
-
-name: 🐞 Bug Report
-description: Report a bug or unexpected behavior in Syntax Frame
-title: "[Bug]: "
-labels: [bug]
-assignees: []
--------------
-
-## Summary
-
-Provide a clear and concise description of the bug.
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
-## Affected Area
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-Select all that apply:
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-* [ ] Snippets
-* [ ] Generator (Node.js)
-* [ ] Generator (Python)
-* [ ] Documentation
-* [ ] Installation
-* [ ] Other (please specify)
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
----
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-## Steps to Reproduce
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-1. Go to `...`
-2. Run `...`
-3. Use snippet `...`
-4. Observe the issue
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
----
-
-## Expected Behavior
-
-Describe what you expected to happen.
-
----
-
-## Actual Behavior
-
-Describe what actually happened.
-
----
-
-## Environment
-
-* OS:
-* VS Code version:
-* Syntax Frame version:
-* Installation method (Global / Workspace):
-
----
-
-## Additional Context
-
-Add any other context, screenshots, logs, or links that may help diagnose the issue.
+**Additional context**
+Add any other context about the problem here.
