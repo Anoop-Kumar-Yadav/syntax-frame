@@ -1,4 +1,4 @@
-# Syntax Frame
+# Syntax Frame ([Documentation](https://medium.com/@anoop9569110314/syntax-frame-writing-code-you-can-understand-later-699d77b78d99))
 
 **Syntax Frame** is a disciplined, language-aware snippet system for VS Code that helps developers write **structured, readable, and maintainable code**.
 
