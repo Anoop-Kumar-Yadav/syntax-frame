@@ -46,7 +46,10 @@ function generate() {
 
   const outputSnippets = {};
 
-  const files = fs.readdirSync(SNIPPETS_DIR).filter(f => f.endsWith(".json"));
+  const files = fs
+    .readdirSync(SNIPPETS_DIR)
+    .filter(f => f.endsWith(".json"))
+    .sort();
 
   if (files.length === 0) {
     fail("No snippet files found in /snippets.");

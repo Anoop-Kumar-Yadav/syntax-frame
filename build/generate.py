@@ -42,7 +42,7 @@ def generate():
 
     output_snippets = {}
 
-    files = [f for f in os.listdir(SNIPPETS_DIR) if f.endswith(".json")]
+    files = sorted(f for f in os.listdir(SNIPPETS_DIR) if f.endswith(".json"))
 
     if not files:
         fail("No snippet files found in /snippets.")
@@ -91,10 +91,10 @@ def generate():
             output_snippets[global_key] = snippet
 
     # ---------- WRITE OUTPUT ----------
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(OUTPUT_FILE, "w", encoding="utf-8", newline="\n") as f:
         json.dump(output_snippets, f, indent=2, ensure_ascii=False)
 
-    print("✅ Syntax Frame global snippet generated successfully:")
+    print("OK: Syntax Frame global snippet generated successfully:")
     print(f"   {OUTPUT_FILE}")
 
 # ---------- RUN ----------
