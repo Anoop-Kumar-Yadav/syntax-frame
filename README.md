@@ -90,28 +90,6 @@ Installs Syntax Frame **once** and makes it available in **all projects**.
 
 ---
 
-### Option B — Project / Workspace Installation
-
-Recommended for teams who want Syntax Frame committed into the project.
-
-#### Steps
-
-1. Copy:
-
-   ```
-   install/vscode/
-   ```
-2. Paste it into your project root as:
-
-   ```
-   .vscode/
-   ```
-3. Reload VS Code
-
-Syntax Frame will now work **only in that project**.
-
----
-
 ## Verifying Installation
 
 Open any supported file (for example `.js`, `.py`, `.html`) and type:

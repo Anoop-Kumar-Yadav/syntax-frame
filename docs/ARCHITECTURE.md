@@ -95,8 +95,7 @@ Think of it like a **compiler**:
 ### Location
 ```
 build/
-├── generate.js           # or generate.py
-└── README.md            # build rules
+└── generate.js           # or generate.py
 ```
 
 ---
@@ -180,14 +179,6 @@ syntax-frame/
 │
 ├── dist/                     # DISTRIBUTION LAYER (generated)
 │   └── syntax-frame.code-snippets
-│
-├── install/                  # OPTIONAL convenience
-│   └── vscode/
-│       ├── javascript.json
-│       ├── python.json
-│       ├── html.json
-│       ├── css.json
-│       └── java.json
 │
 ├── docs/
 │   ├── USAGE_GUIDE.md
